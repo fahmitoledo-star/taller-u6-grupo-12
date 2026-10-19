@@ -2,7 +2,7 @@
 
 ## 1. Repositorio e integrantes
 Enlace al repositorio: https://github.com/fahmitoledo-star/taller-u6-grupo-12
-- Integrantes: [Samuel y Miguel] (@fahmitoledo-star)(@Miguegon2003) - Roles R1, R2 y R3 (Grupo unipersonal).
+- Integrantes: [Samuel y Miguel] (@fahmitoledo-star)(@Miguegon2003) - Roles R1, R2 y R3 .
 
 ## 2. Reproducción de la versión 1.0 (M2)
 Resultado de la ejecución: "Reproducción exacta: 3 de 3 salidas coinciden."
