@@ -1,1 +1,1 @@
-Taller Unidad 6 · Grupo NN. 
+# Taller Unidad 6 · Grupo 12. 
