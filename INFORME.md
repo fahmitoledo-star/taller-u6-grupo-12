@@ -18,3 +18,15 @@ Salida de `git log --oneline --graph`:
 * 3fb3dd5 Agrega Pereira al generador de datos (R2)
 
 No hubo push rechazado, ya que los cambios se hicieron de forma secuencial.
+
+## 4. Versión 1.1 (M4)
+Se construyó la imagen 1.1 y se verificó que las huellas coinciden con las de referencia. La tabla de 6 ciudades muestra a Pereira. La huella de resumen_ciudad.csv es 8160729e...
+Se publicó la etiqueta v1.1.
+
+## 5. Diagnósticos (M5)
+- **Prueba de semilla:** Cambiar la semilla altera todos los números aleatorios, por lo que los datos generados cambian, y por tanto las huellas son diferentes (0 de 3).
+- **Prueba de versión sin fijar:** Al quitar `==2.1.3` y dejar `>=2.1`, el resultado puede ser 3 de 3 (si la versión descargada es compatible) o fallar. Esto demuestra que sin versiones fijas no hay garantía de reproducibilidad en el tiempo.
+- **Prueba de .gitignore:** El archivo .gitignore evita que los datos generados y las salidas se suban a GitHub, manteniendo el repositorio ligero y permitiendo que cualquiera regenere los resultados con el código.
+
+## 6. Semilla del proyecto (M6)
+Se creó la carpeta `proyecto/` con README.md, requirements.txt (versiones fijas) y Dockerfile. El comando `docker run --rm proyecto:0.1` imprime "Entorno listo, pandas 2.2.3".
