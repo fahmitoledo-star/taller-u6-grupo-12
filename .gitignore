@@ -8,3 +8,5 @@ salidas_b/
 __pycache__/
 *.pyc
 .venv/
+salidas_c/
+salidas_d/
